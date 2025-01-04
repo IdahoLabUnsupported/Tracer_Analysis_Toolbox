@@ -1,0 +1,1 @@
+This directory contains matlab functions called by the TAT program. The subdirectories are generally MATLAB-Community based functions used by the program. 

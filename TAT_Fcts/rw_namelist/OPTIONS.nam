@@ -1,0 +1,233 @@
+&NAM_FRAC
+   LECOCLIMAP = F
+   XUNIF_SEA = 0
+   XUNIF_WATER = 0
+   XUNIF_TOWN = 0.62
+   XUNIF_NATURE = 0.38
+/
+&NAM_DATA_ISBA
+   NTIME = 12
+   XUNIF_LAI(1,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(2,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(3,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(4,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(5,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(6,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(7,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(8,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(9,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(10,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(11,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_LAI(12,:) = 3.3, 3.2, 3.2, 3.2, 3.2, 3.2, 3.3, 3.3, 3.6, 3.8, 3.9, 3.4,
+   XUNIF_DG(1,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(2,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(3,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(4,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(5,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(6,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(7,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(8,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(9,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(10,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(11,:) = 0.01, 1.8, 2.6,
+   XUNIF_DG(12,:) = 0.01, 1.8, 2.6,
+   XUNIF_ROOTFRAC(1,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(2,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(3,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(4,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(5,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(6,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(7,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(8,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(9,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(10,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(11,:) = 0.5, 0.4, 0.1,
+   XUNIF_ROOTFRAC(12,:) = 0.5, 0.4, 0.1,
+   XUNIF_RSMIN(:) = 40, 40, 40, 150, 150, 250, 40, 120, 40, 40, 120, 40,
+   XUNIF_GAMMA(:) = 0, 0, 0, 0.04, 0.04, 0.04, 0, 0, 0, 0, 0, 0,
+   XUNIF_WRMAX_CF(:) = 0.2, 0.2, 0.2, 0.1, 0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+   XUNIF_RGL(:) = 100, 100, 100, 30, 30, 30, 100, 100, 100, 100, 100, 100,
+   XUNIF_CV(:) = 2e-05, 2e-05, 2e-05, 1e-05, 1e-05, 1e-05, 2e-05, 2e-05, 2e-05, 2e-05, 2e-05, 2e-05,
+   XUNIF_Z0_O_Z0H = 10
+   XUNIF_ALBNIR_VEG(:) = 0.3, 0.3, 0.3, 0.25, 0.15, 0.21, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3,
+   XUNIF_ALBVIS_VEG(:) = 0.1, 0.1, 0.1, 0.05, 0.05, 0.05, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
+   XUNIF_ALBUV_VEG(:) = 0.06, 0.06, 0.06, 0.0525, 0.0425, 0.038, 0.06, 0.06, 0.045, 0.08, 0.125, 0.045,
+   XUNIF_ALBNIR_SOIL(:) = 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3,
+   XUNIF_ALBVIS_SOIL(:) = 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
+   XUNIF_ALBUV_SOIL(:) = 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06,
+   XUNIF_GMES(:) = 0.02, 0.02, 0.02, 0.001, 0.001, 0.001, 0.003, 0.003, 0.003, 0.02, 0.02, 0.02,
+   XUNIF_RE25(:) = 3e-07, 3e-07, 3e-07, 3e-07, 1e-07, 3e-07, 3e-07, 2.5e-06, 3e-07, 3e-07, 3e-07, 3e-07,
+   XUNIF_BSLAI(:) = 0.36, 0.36, 0.36, 0.25, 0.25, 0.25, 0.06, 0.06, 0.06, 0.36, 0.36, 0.36,
+   XUNIF_LAIMIN(:) = 0.3, 0.3, 0.3, 0.3, 1, 1, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3,
+   XUNIF_SEFOLD(:) = 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06, 5.184e+06,
+   XUNIF_GC(:) = 0.00025, 0.00025, 0.00025, 0.00015, 0, 0.00015, 0.00025, 0.00025, 0.00025, 0.00025, 0.00025, 0.00025,
+   XUNIF_DMAX(:) = 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
+   XUNIF_F2I(:) = 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3,
+   XUNIF_H_TREE = 12
+   XUNIF_CE_NITRO(:) = 7.68, 7.68, 7.68, 4.83, 4.85, 4.83, 3.79, 7.68, 7.68, 5.56, 7.68, 5.56,
+   XUNIF_CF_NITRO(:) = 1.3, 1.3, 1.3, 2, 2.8, 2.5, 9.84, -4.33, -4.33, 6.73, -4.33, 6.73,
+   XUNIF_CNA_NITRO(:) = 1.3, 1.3, 1.3, 2, 2.8, 2.5, 1.3, 1.9, 1.9, 1.3, 1.3, 1.3,
+/
+&NAM_DATA_TEB
+   NROOF_LAYER = 4
+   XUNIF_ALB_ROOF = 0.21
+   XUNIF_EMIS_ROOF = 0.973
+   XUNIF_HC_ROOF(:) = 2.07e+06, 7100, 1.5e+06, 670000,
+   XUNIF_TC_ROOF(:) = 6.53, 0.025, 0.23, 0.16,
+   XUNIF_D_ROOF(:) = 0.0116, 0.05, 0.04, 0.0125,
+   NROAD_LAYER = 4
+   XUNIF_ALB_ROAD = 0.15
+   XUNIF_EMIS_ROAD = 0.97
+   XUNIF_HC_ROAD(:) = 1.14e+06, 1.05e+06, 1.29e+06, 1.43e+06,
+   XUNIF_TC_ROAD(:) = 1.17, 0.3, 0.42, 3.72,
+   XUNIF_D_ROAD(:) = 0.02875, 0.1583, 0.1125, 0.65045,
+   NWALL_LAYER = 4
+   XUNIF_ALB_WALL = 0.21
+   XUNIF_EMIS_WALL = 0.97
+   XUNIF_HC_WALL(:) = 1.25e+06, 1.4e+06, 1300, 670000,
+   XUNIF_TC_WALL(:) = 0.61, 0.43, 0.024, 0.16,
+   XUNIF_D_WALL(:) = 0.0404, 0.054, 0.042, 0.0125,
+   XUNIF_Z0_TOWN = 0.4
+   XUNIF_BLD = 0.445
+   XUNIF_BLD_HEIGHT = 6.4
+   XUNIF_WALL_O_HOR = 0.4
+   XUNIF_H_TRAFFIC = 0
+   XUNIF_LE_TRAFFIC = 0
+   XUNIF_H_INDUSTRY = 0
+   XUNIF_LE_INDUSTRY = 0
+/
+&NAM_PGD_GRID
+   CGRID = 'LONLAT REG'
+/
+&NAM_LONLAT_REG
+   XLONMIN = 145.015
+   XLONMAX = 145.015
+   XLATMIN = -37.2308
+   XLATMAX = -37.2308
+   NLON = 1
+   NLAT = 1
+/
+&NAM_ZS
+   XUNIF_ZS = 92
+/
+&NAM_ISBA
+   XUNIF_CLAY = 0.1
+   XUNIF_SAND = 0.65
+   XUNIF_RUNOFFB = 0.5
+   CISBA = '3-L'
+   CPHOTO = 'AGS'
+   NPATCH = 12
+   NGROUND_LAYER = 3
+/
+&NAM_PREP_SURF_ATM
+   NYEAR = 2003
+   NMONTH = 8
+   NDAY = 13
+   XTIME = 10800
+/
+&NAM_PREP_TEB
+   NYEAR = 2003
+   NMONTH = 8
+   NDAY = 13
+   XTIME = 10800
+   XTI_ROAD = 293
+   XTI_BLD = 293
+   XTS_ROAD = 293
+   XTS_ROOF = 293
+   XTS_WALL = 293
+   XWS_ROAD = 0
+   XWS_ROOF = 0
+/
+&NAM_PREP_ISBA
+   NYEAR = 2003
+   NMONTH = 8
+   NDAY = 13
+   XTIME = 10800
+   XHUG_SURF = 1
+   XHUG_ROOT = 1
+   XHUG_DEEP = 1
+   XTG_SURF = 293.16
+   XTG_ROOT = 293.16
+   XTG_DEEP = 293.16
+/
+&NAM_PREP_SEAFLUX
+   NYEAR = 2003
+   NMONTH = 8
+   NDAY = 13
+   XTIME = 10800
+   XSST_UNIF = 285
+/
+&NAM_PREP_WATFLUX
+   NYEAR = 2003
+   NMONTH = 8
+   NDAY = 13
+   XTIME = 10800
+   XTS_WATER_UNIF = 285
+/
+&NAM_PGD_SCHEMES       
+   CNATURE = 'ISBA  '
+   CSEA    = 'SEAFLX'
+   CTOWN   = 'TEB   '
+   CWATER  = 'WATFLX' 
+/
+&NAM_IO_OFFLINE
+   LPRINT  = T
+   CFORCING_FILETYPE =    'NETCDF'
+   CSURF_FILETYPE =       'ASCII '
+   CTIMESERIES_FILETYPE = 'BINARY'
+   XTSTEP_OUTPUT = 1800.0,                ! Output every 30 minutes 
+   XTSTEP_SURF = 300.0,                   ! Time step = 5 min
+/
+&NAM_DIAG_SURFn
+   LSURF_BUDGET = .true.
+   N2M          = 2
+   LCOEF        = F
+   LSURF_VARS   = F
+/
+&NAM_DIAG_SURF_ATMn
+   LFRAC        = F
+/
+&NAM_DIAG_ISBAn
+   LPGD              = T
+   LSURF_EVAP_BUDGET = .T.
+   LSURF_MISC_BUDGET = .f.
+/
+&NAM_DIAG_TEBn
+   LSURF_MISC_BUDGET = .F.
+/
+&NAM_SGH_ISBAn
+   CRUNOFF    = 'WSAT'
+/
+
+  ! This are records from a WRF namelist 
+&share
+ wrf_core = 'ARW',
+ max_dom  = 4,
+ start_date = '1979-11-08_00:00:00',
+ end_date = '1979-11-08_00:00:00',
+ interval_seconds = 10800,
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id                     =       1,       1,       2,       3, 
+ parent_grid_ratio             =       1,       3,       3,       3, 
+ i_parent_start                =       1,       6,       8,      10, 
+ j_parent_start                =       1,       7,       7,       8, 
+ e_we                          =      21,      31,      52,     100, 
+ e_sn                          =      21,      28,      46,      85, 
+ geog_data_res                 = 'modis_30s+10m', 'modis_30s+5m', 'modis_30s+2m', 'modis_30s+8s+30s', 
+ dx                            =   40500, 
+ dy                            =   40500, 
+ map_proj                      = 'mercator', 
+ ref_lat                       = -37.900000, 
+ ref_lon                       = 144.900000, 
+ truelat1                      = -37.900000, 
+ geog_data_path                = 'geog_melbourne/', 
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'NARR_FIX',
+/
+
