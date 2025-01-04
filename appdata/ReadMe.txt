@@ -1,0 +1,1 @@
+This directory contains images and Matlab workspaces that support the app. It does not contain functions. 
