@@ -1,0 +1,1 @@
+This directory contains Word documents and PDFs that are the instructions and help files for the program.
